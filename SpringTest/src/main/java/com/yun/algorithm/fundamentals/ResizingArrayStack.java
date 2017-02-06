@@ -35,7 +35,7 @@ public class ResizingArrayStack<Item> implements Iterable<Item>{
 		
 		if(N > 0 && N == a.length/4) 
 		{
-			resize(a.length/2);
+			 resize(a.length/2);
 		}
 		return item;
 	}
